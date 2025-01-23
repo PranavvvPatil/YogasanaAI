@@ -24,7 +24,7 @@ const Chatbot = ({ onCancel }: ChatbotProps) => {
 
       try {
         // Send POST request to the correct API endpoint with payload
-        const response = await axios.post("https://neuspaarx-yoga-chatbot.hf.space/chat", {
+        const response = await axios.post(", {
           query: input, // Sending user input in the required payload structure
         });
 

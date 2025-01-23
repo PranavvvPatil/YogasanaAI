@@ -14,6 +14,7 @@ app.use(cors());
 
 // MongoDB connection
 const mongoURI = `mongodb+srv://neuspaarx:xOp7CpMj7I23kS4r@userdata.danlv.mongodb.net/?retryWrites=true&w=majority&appName=UserData`;
+
 mongoose
   .connect(mongoURI)
   .then(() => console.log("Connected to MongoDB"))

@@ -45,7 +45,7 @@ const YogaPoseUpload = () => {
 
     try {
       const response = await fetch(
-        "https://sanuvishwakarma-yoga-pose-docker.hf.space/predict/",
+
         {
           method: "POST",
           body: formData,
